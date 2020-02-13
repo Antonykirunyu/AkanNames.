@@ -20,6 +20,7 @@ p{
     color: black;
 }
 .caption{
+    margin-top: 10%;
     display: flex;
     margin-top: 1%;
     justify-content: space-between;
@@ -30,16 +31,17 @@ p{
     background-color: rgb(238, 227, 227);
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding-left: 10%;
+    width: 80%;
+    padding-left: 7%;
 }
 .form{
     background-color: rgb(238, 227, 227);
-    /* margin-left: 10%; */
+    margin-left: 10%;
     float: right;
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: column;
-    padding-right:10% ;
+    padding-left:7%;
+    padding-right: 7%;
 }
 
