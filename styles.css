@@ -9,8 +9,10 @@ h1 {
     margin-top: 0;
     font-family: sans-serif;
     text-align: center;
-    text-decoration: underline;
+    font-size: 100%; 
+    color: orange;
 }
+
 h3{
     font-size: 60px;
     font-weight: 40px;
@@ -44,4 +46,24 @@ p{
     padding-left:7%;
     padding-right: 7%;
 }
+ .jumbotron {
+        height: 10%;
+    }
 
+    .text1{
+        font-size: 300px;
+       }
+       
+    .text2 {
+        font-size: 200px;
+       }
+       
+       .text3 {
+        font-size: 200px;
+       }
+       .text4 {
+        font-size: 200px
+       }
+       
+    
+       
