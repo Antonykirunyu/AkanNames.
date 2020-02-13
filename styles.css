@@ -1,0 +1,12 @@
+h1 {
+    margin-top: 0;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+body {
+    background-image: URL("https://bit.ly/2w5u9HR");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
