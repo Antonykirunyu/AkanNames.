@@ -1,98 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>AkanNames</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ghana Naming system</title>
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  
+  
+
 </head>
 <body>
-    <div class="container">
-<div class="row">
-<div class="col-md-10">
-<h1> <span class="text1 col-md-2">A</span>
-    <span class="text2 col-md-2">K</span>
-    <span class="text3 col-md-2">A</span>
-    <span class="text4 col-md-2">N</span>
-</h1>
-</div>
-</div>
-<div  class="jumbotron" style="width: 975px; height: 50%;">
-<div class="caption">
-    <div class="active">
-<h3><strong><em>The untold story.</em></strong></h3>
-<p>The naming system in Ghana is very unique and
-     <br>unlike any other system in the world.The 
-     <br>child is not assigned a name before the eighth
-     <br>day because during that period it is considered
-     <br>as a stranger from the ancestral world who 
-     <br>has come for a visit.Days of the week in Ghana
-     <br>are very important aspects of the naming culture.
-     <br>In Ghana everyone is supposed to have a day name 
-     <br>in addition to his other names,which will be 
-     <br>disclosed in due course.The day of the week on 
-     <br>which one is born determines what name he is called.
-     <br>There are day names for each of the seven days. 
-     <br>The names come in pairs for each day;one for a
-     <br>male,the other for a female born on that day.
-
-</p>
-    </div>
-    <div class="form">
-        <h4><strong><em>See what i mean!</em></strong></h4>
-<h4>Fill the form below to see your Akan name</h4>
-<div class="container">
- <div class="row">
-   <div class="col-md-10">
+ 
+  <div class="container">
+    <div class="head">
+        <h1> <span class="text1 col-md-2">A</span>
+            <span class="text2 col-md-2">K</span>
+            <span class="text3 col-md-2">A</span>
+            <span class="text4 col-md-2">N</span>
+        </h1>
     <div>
-    <label for="YYY">Year;</label>
-    <input type="number" id="YYY" class="Year" placeholder="Year of Birth" required>
-
-   </div>
-  </div>
-  </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-10">
-         <div>
-         <label for="MMM">Month;</label>
-         <input type="number" id="MMM" class="Month" placeholder="Month of Birth" required>
-     
-        </div>
-       </div>
-       </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-10">
-         <div>
-         <label for="DDD">Day;</label>
-         <input type="number" id="DDD" class="Day" placeholder="Date of Birth" required>
-     
-        </div>
-       </div>
-       </div>
-</div> 
-<div class="gender">
-<input type="radio" id="male" name="gender" required>Male
-<input type="radio" id="female" name="gender" required>Female
-</div>
-<div>
-  <button type="button" onclick="getname()"submit>Submit</button>
-  <input type="reset" value="Reset"> 
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="yourName">
-    <p id="display"></p>
-</div>
-<script src="scripts.js"></script>
+        <div class="caption">
+            <div class="active">
+        <h3><strong><em>The untold story.</em></strong></h3>
+        <p>The naming system in Ghana is very unique and
+             unlike any other system in the world.The 
+             child is not assigned a name before the eighth
+             day because during that period it is considered
+             as a stranger from the ancestral world who 
+             has come for a visit.Days of the week in Ghana
+             are very important aspects of the naming culture.
+            In Ghana everyone is supposed to have a day name 
+             in addition to his other names,which will be 
+             disclosed in due course.The day of the week on 
+             hich one is born determines what name he is called.
+            There are day names for each of the seven days. 
+            The names come in pairs for each day;one for a
+             male,the other for a female born on that day.
+        
+        </p> 
     </div>
+  <div class="active">
+   
+    <h3>Enter Details</h3>
+    <form name="my-day" onsubmit="return validateform()">
+      <p><em>Day</em></p>
+      <input type="text" id="day-to-earth" name="DD" value="" class="day" placeholder="Date of Birth" min="1" max="31"> 
+      <p><em>Month</em></p>
+      <input type="text" id="month-to-earth" name="MM" value="" class="month" placeholder="Month of Birth" min="1" max="12">
+      <p><em>Year</em></p>
+      <input type="text" id="year" name="YY" value="" class="year" placeholder="Year of Birth"> 
+      <p><em>Century</em></p>
+      <input type="text" id="century" name="CC" value="" class="century" placeholder="Century of Birth">  
+      <input type="radio" name="gender" value="male"> Male 
+      <input type="radio" name="gender" value="female"> Female 
+      
+      <input type="submit" name="submit" value="submit">
+    </form>
+  </div>
+</div>
+</div>
+ 
+  <script src="script.js"></script>
+
+  
 </body>
 </html>

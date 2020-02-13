@@ -1,5 +1,4 @@
 body {
-    background-image: URL("https://bit.ly/2w5u9HR");
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -10,7 +9,6 @@ h1 {
     font-family: sans-serif;
     text-align: center;
     font-size: 100%; 
-    color: orange;
 }
 
 h3{
@@ -19,6 +17,7 @@ h3{
     color: black;
 }
 p{
+    font-size: 25px;
     color: black;
 }
 .caption{
@@ -36,34 +35,7 @@ p{
     width: 80%;
     padding-left: 7%;
 }
-.form{
-    background-color: rgb(238, 227, 227);
-    margin-left: 10%;
-    float: right;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    padding-left:7%;
-    padding-right: 7%;
-}
- .jumbotron {
-        height: 10%;
-    }
 
-    .text1{
-        font-size: 300px;
-       }
-       
-    .text2 {
-        font-size: 200px;
-       }
-       
-       .text3 {
-        font-size: 200px;
-       }
-       .text4 {
-        font-size: 200px
-       }
        
     
        
