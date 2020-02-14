@@ -38,31 +38,31 @@ function validate(){
         switch(dayIndex) {
                 case 0:
             akanName = "Kwasi";
-            alert("Your name is Kwasi since you were born on Sunday");
+            alert("Your name is Kwasi since you were born on Sunday.");
             break;
             case 1:
             akanName = "Kwadwo";
-            alert("Your name is Kwadwo since you were born on Monday");
+            alert("Your name is Kwadwo since you were born on Monday.");
             break;
             case 2:
             akanName = "Kwabena";
-            alert("Your name is Kwabena since you were born on Tuesday");
+            alert("Your name is Kwabena since you were born on Tuesday.");
             break;
             case 3:
             akanName = "Kwaku";
-            alert("Your name is Kwaku since you were born on Wednesday");
+            alert("Your name is Kwaku since you were born on Wednesday.");
             break;
             case 4:
             akanName = "Yaw";
-            alert("Your name is Yaw since you were born on Thursday");
+            alert("Your name is Yaw since you were born on Thursday.");
             break;
             case 5:
             akanName = "Kofi";
-            alert("Your name is Kofi since you were born on Friday");
+            alert("Your name is Kofi since you were born on Friday.");
             break;
             case 6:
             akanName = "Kwame";
-            alert("Your name is Kwame since you were born on Saturday");
+            alert("Your name is Kwame since you were born on Saturday.");
             break;
             default:
             akanName = "Please input the correct details!"
@@ -72,31 +72,31 @@ function validate(){
         switch(dayIndex) {
                 case 0:
                 akanName = "Akosua";
-                alert("Your name is Akosua since you were born on Sunday");
+                alert("Your name is Akosua since you were born on Sunday.");
                 break;
                 case 1:
                 akanName = "Adwoa";
-                alert("Your name is Adwoa since you were born on Monday");
+                alert("Your name is Adwoa since you were born on Monday.");
                 break;
                 case 2:
                 akanName = "Abenaa";
-                alert("Your name is Abenaa since you were born on Tuesday");
+                alert("Your name is Abenaa since you were born on Tuesday.");
                 break;
                 case 3:
                 akanName = "Akua";
-                alert("Your name is Akua since you were born on Wednesday");
+                alert("Your name is Akua since you were born on Wednesday.");
                 break;
                 case 4:
                 akanName = "Yaa";
-                alert("Your name is Yaa since you were born on Thursday");
+                alert("Your name is Yaa since you were born on Thursday.");
                 break;
                 case 5:
                 akanName = "Afua";
-                alert("Your name is Afua since you were born on Friday");
+                alert("Your name is Afua since you were born on Friday.");
                 break;
                 case 6:
                 akanName = "Ama";
-                alert("Your name is Ama since you were born on Saturday");
+                alert("Your name is Ama since you were born on Saturday.");
                 break;
                 default:
                 akanName = "Please input the correct details!"
