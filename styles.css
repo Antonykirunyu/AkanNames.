@@ -43,6 +43,7 @@ p{
     padding-top: 2%;
     padding-bottom: 2%;
     color:green;
+    font-size: 50%
 }
 .active{
     background-color: rgb(238, 227, 227);
