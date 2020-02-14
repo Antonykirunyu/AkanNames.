@@ -1,4 +1,4 @@
-function validateform(){
+function validate(){
     var day = Number(document.getElementById("day-to-earth").value);
     var month = Number(document.getElementById("month-to-earth").value);
     var year = Number(document.getElementById("year").value);
@@ -38,6 +38,7 @@ function validateform(){
         switch(dayIndex) {
                 case 0:
             akanName = "Kwasi";
+            alert
             alert("Your name is Kwasi");
             break;
             case 1:
