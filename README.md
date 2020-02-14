@@ -16,7 +16,7 @@ name according to the Akan naming system.
 
 * You need to have a github account for deploying the project.
 * You can click the link below for the live project on github.
-  * https://antonykirunyu.github.io/AkanNames/
+  * https://antonykirunyu.github.io/AkanNames./
 
 ### Technology used;
 
