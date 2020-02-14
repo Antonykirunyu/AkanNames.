@@ -28,7 +28,7 @@ The project is created with;
 
 ### BDD
 
-This section contains a short description and has a form that you can enter your birthday details. Then the application responces with the corresponding Akan name.
+This section contains a short description about the AkanNames and has a form that you can enter your birthday details. Then the application responces with the corresponding Akan name.
 
 
 ## License
